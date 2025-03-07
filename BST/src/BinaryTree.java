@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 
 public class BinaryTree {
 
@@ -73,6 +74,30 @@ public class BinaryTree {
 		res += root + " ";
 		res += root.right + " ";
 		return res;
+	}
+	
+	public void print() {
+		
+	}
+	
+	public String bfs() {
+		//string in a breath first search order
+		return "";
+	}
+	
+	//used if bfs is implemented tail recursively
+	public String bfsHelper(ArrayList<Node> visited) {
+		return "";
+	}
+	
+	//pre-order depth-first-search traversal
+	public String dfs() {
+		return "";
+	}
+	
+	//used if dfs is written tail recursively
+	public String dfsHelper(Node curr) {
+		return "";
 	}
 	
 	
